@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Area_51/1.0.0": {
+        "dependencies": {
+          "Area_51.Models": "1.0.0"
+        },
+        "runtime": {
+          "Area_51.dll": {}
+        }
+      },
+      "Area_51.Models/1.0.0": {
+        "runtime": {
+          "Area_51.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Area_51/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Area_51.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

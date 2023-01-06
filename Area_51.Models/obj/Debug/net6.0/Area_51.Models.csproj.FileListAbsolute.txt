@@ -1,0 +1,12 @@
+C:\Users\LAPTOP-PC\Desktop\Area_51\Area_51.Models\bin\Debug\net6.0\Area_51.Models.deps.json
+C:\Users\LAPTOP-PC\Desktop\Area_51\Area_51.Models\bin\Debug\net6.0\Area_51.Models.dll
+C:\Users\LAPTOP-PC\Desktop\Area_51\Area_51.Models\bin\Debug\net6.0\Area_51.Models.pdb
+C:\Users\LAPTOP-PC\Desktop\Area_51\Area_51.Models\obj\Debug\net6.0\Area_51.Models.csproj.AssemblyReference.cache
+C:\Users\LAPTOP-PC\Desktop\Area_51\Area_51.Models\obj\Debug\net6.0\Area_51.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAPTOP-PC\Desktop\Area_51\Area_51.Models\obj\Debug\net6.0\Area_51.Models.AssemblyInfoInputs.cache
+C:\Users\LAPTOP-PC\Desktop\Area_51\Area_51.Models\obj\Debug\net6.0\Area_51.Models.AssemblyInfo.cs
+C:\Users\LAPTOP-PC\Desktop\Area_51\Area_51.Models\obj\Debug\net6.0\Area_51.Models.csproj.CoreCompileInputs.cache
+C:\Users\LAPTOP-PC\Desktop\Area_51\Area_51.Models\obj\Debug\net6.0\Area_51.Models.dll
+C:\Users\LAPTOP-PC\Desktop\Area_51\Area_51.Models\obj\Debug\net6.0\refint\Area_51.Models.dll
+C:\Users\LAPTOP-PC\Desktop\Area_51\Area_51.Models\obj\Debug\net6.0\Area_51.Models.pdb
+C:\Users\LAPTOP-PC\Desktop\Area_51\Area_51.Models\obj\Debug\net6.0\ref\Area_51.Models.dll
