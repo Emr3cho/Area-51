@@ -17,6 +17,8 @@ namespace Area_51.Models
         public SecurityLevels SecurityLevel { get; private set; }
         public FloorTypes CurrentFloor { get; set; }
 
+        private Elevator elevator;
+
         public Agent(int id,string firstName, string lastName, int age, FloorTypes currentFloor, SecurityLevels securityLevel)
         {
             this.Id = id;
@@ -27,16 +29,14 @@ namespace Area_51.Models
             this.SecurityLevel = securityLevel;
         }
 
-        public void StartWorkDay(object elevator)
+        public void StartWorkDay()
         {
-            Elevator elv = (Elevator) elevator;
-            
-            elv.TryEnter(this);
+            elevator.TryEnter(this);
 
             while (true) 
             { 
                 var randomFloorToGo = AgentGenerator.RandomFloorType();
-                elv.Move(randomFloorToGo);
+                elevator.Move(randomFloorToGo);
                 break;
             }
         }
@@ -44,6 +44,11 @@ namespace Area_51.Models
         public override string ToString()
         {
             return Id + ". " + FirstName + " " + LastName;
+        }
+
+        public void addElevator(Elevator elevator)
+        {
+            this.elevator = elevator;
         }
     }
 }

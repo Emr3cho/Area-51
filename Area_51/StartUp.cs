@@ -15,16 +15,16 @@ class Program
 
         var agentThreads = new List<Thread>();
 
-        Thread e = new Thread(elevator.WorkDay);
-
         for (int i = 0; i < agentsCount; i++)
         {
             Agent agent = agents[i];
+            agent.addElevator(elevator);
             Thread t = new Thread(agent.StartWorkDay);
-            t.Start(elevator);
+            t.Start();
             agentThreads.Add(t);
         }
 
+        Thread e = new Thread(elevator.WorkDay);
         e.Start();
 
         foreach (var t in agentThreads) t.Join();

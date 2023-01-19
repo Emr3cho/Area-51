@@ -82,10 +82,7 @@ namespace Area_51.Models
                     GoUp();
                 }
             }
-
             Leave();
-
-            
         }
 
         private void GoUp()

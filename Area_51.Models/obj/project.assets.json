@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LAPTOP-PC\\Desktop\\Area_51\\Area_51.Models\\Area_51.Models.csproj",
+      "projectUniqueName": "D:\\Lesses\\PU_University_Lesses\\PU_Multithreading\\Area-51\\Area_51.Models\\Area_51.Models.csproj",
       "projectName": "Area_51.Models",
-      "projectPath": "C:\\Users\\LAPTOP-PC\\Desktop\\Area_51\\Area_51.Models\\Area_51.Models.csproj",
+      "projectPath": "D:\\Lesses\\PU_University_Lesses\\PU_Multithreading\\Area-51\\Area_51.Models\\Area_51.Models.csproj",
       "packagesPath": "C:\\Users\\LAPTOP-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LAPTOP-PC\\Desktop\\Area_51\\Area_51.Models\\obj\\",
+      "outputPath": "D:\\Lesses\\PU_University_Lesses\\PU_Multithreading\\Area-51\\Area_51.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
