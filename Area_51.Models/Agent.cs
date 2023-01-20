@@ -31,9 +31,9 @@ namespace Area_51.Models
 
         public void StartWorkDay()
         {
-            elevator.TryEnter(this);
+            var isEnterApproved = elevator.TryEnter(this);
 
-            while (true) 
+            while (isEnterApproved) 
             { 
                 var randomFloorToGo = AgentGenerator.RandomFloorType();
                 elevator.Move(randomFloorToGo);
